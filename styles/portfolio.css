@@ -5,4 +5,8 @@ h1 {
 p {
   font-family: "Playfair Display", serif;
   font-weight: normal;
+  margin-right: 5px;
+}
+div {
+  background-color: #ffc107;
 }
