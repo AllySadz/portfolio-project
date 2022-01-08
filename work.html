@@ -32,9 +32,43 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/styles/portfolio.css" />
+    <meta
+      name="description"
+      content="See some of Ally's past and current projets"
+    />
     <title>Ally Sadzius - My Projects</title>
   </head>
   <body>
+      <div class="container">
+      <nav class="d-flex justify-content-between align-items-center">
+        <a href="/">
+          <img
+            src="images/allyLogoNoneBold-smaller.png"
+            alt="Ally Sadzius Logo"
+            class="logo-img d-none d-md-block"
+          />
+          <img
+            src="images/allyLogoSmall.png"
+            alt="Ally Sadzius Logo"
+            class="logo-img-small d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Ally">About</a>
+          </li>
+          <li  class="active">
+            <a href="/work.html" title="Ally's Work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="contact Ally">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
           <div class="about-section-content">
@@ -56,9 +90,69 @@
                 <h3 class="text-center m-0">Weather App</h3>    
                 <p class="text-center text-muted">Built with HTML, CSS and JavaScript</p>
                 </div>
-                <span><a href="/" class="btn btn-branding">Back</a></span>
+                
             </div>       
           </div>
+               <footer>
+        <div
+          class="
+            contact-box
+            d-flex
+            justify-content-between
+            mb-5
+            d-none d-md-flex
+          "
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              title="Contact Ally"
+              class="btn btn-branding mt-3"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:alexandria.sadzius@gmail.com"
+            class="email-link"
+            title="Email Ally"
+            >alexandria.sadzius@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/allyjaysadzius/?hl=en"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/AllySadz"
+            target="_blank"
+            title="Github Profile"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ally-sadzius/"
+            target="_blank"
+            title="LinkedIn Profile"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <p class="mt-5 text-center text-muted">
+          This project was coded by Ally Sadzius, and it is
+          <a
+            href="https://github.com/AllySadz/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
       </div>
   </body>
 </html>
