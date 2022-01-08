@@ -149,7 +149,7 @@ footer .social-links a {
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
-footer .social-links:hover {
+footer .social-links a:hover {
   color: white;
   background-color: var(--branding-color);
 }
@@ -208,4 +208,11 @@ footer .contact-box p {
 
 img.heroImg {
   border-radius: 10px;
+  max-height: 500px;
+}
+
+@media (max-width: 450px) {
+  footer .email-link {
+    font-size: calc(100vw / 20);
+  }
 }
