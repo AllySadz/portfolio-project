@@ -6,6 +6,7 @@
 }
 body {
   font-family: var(--default-font-family);
+  color: #3d405b;
 }
 
 h1,
@@ -34,6 +35,9 @@ p {
 img {
   border-radius: 10px;
 }
+.about-section-content {
+  margin-bottom: 50px;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -44,7 +48,7 @@ img {
   font-family: var(--default-font-family);
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: #3d405b;
 }
 .hero h2 {
   font-family: var(--default-font-family);
@@ -122,7 +126,7 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: #3d405b;
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
